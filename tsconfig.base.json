@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "noErrorTruncation": false,
+
+    /* Emit */
+    "incremental": true,
+    "declaration": true,
+    "sourceMap": true,
+    "stripInternal": true,
+    "emitDecoratorMetadata": true,
+
+    /* Core Config */
+    "target": "ES2021",
+    "module": "CommonJS",
+    "moduleResolution": "node",
+
+    /* Options */
+    "strict": true,
+    "preserveConstEnums": true,
+    "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "preserveSymlinks": true,
+    "noImplicitOverride": true,
+    "resolveJsonModule": true,
+    "useUnknownInCatchVariables": false
+  }
+}
