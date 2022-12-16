@@ -1,6 +1,7 @@
 {
   "name": "slonik-plus",
   "version": "0.0.0",
+  "description": "Extends slonik to add definable typescript models and additional features",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
@@ -17,7 +18,6 @@
     "dist"
   ],
   "license": "MIT",
-  "description": "Slonik extension library",
   "repository": {
     "type": "git+ssh",
     "url": "git@github.com:nonara/slonik-plus.git"
