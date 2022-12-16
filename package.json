@@ -1,0 +1,43 @@
+{
+  "name": "slonik-plus",
+  "version": "0.0.1",
+  "description": "Extends slonik to add definable typescript models and additional features",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "compile": "tsc",
+    "build": "yarn run clean && yarn run compile",
+    "clean": "rimraf coverage dist **/*.tsbuildinfo",
+    "-------------  ": "-------------",
+    "test": "echo not implemented yet",
+    "------------- ": "-------------",
+    "release": "standard-version"
+  },
+  "files": [
+    "CHANGELOG.md",
+    "dist"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git+ssh",
+    "url": "git@github.com:nonara/slonik-plus.git"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "peerDependencies": {
+    "slonik": "^33.0.4"
+  },
+  "devDependencies": {
+    "slonik": "^33.0.4",
+    "@types/pg": "^8.6.5",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.9.4",
+    "standard-version": "^9.5.0"
+  },
+  "dependencies": {
+    "deepmerge": "^4.2.2",
+    "reflect-metadata": "^0.1.13",
+    "slonik-sql-tag-raw": "^2.0.0"
+  }
+}
