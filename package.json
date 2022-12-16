@@ -1,6 +1,6 @@
 {
   "name": "slonik-plus",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Extends slonik to add definable typescript models and additional features",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
