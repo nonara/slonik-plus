@@ -1,6 +1,6 @@
 {
   "name": "slonik-plus",
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Extends slonik to add definable typescript models and additional features",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -31,8 +31,8 @@
   "devDependencies": {
     "slonik": "^33.0.4",
     "@types/pg": "^8.6.5",
-    "rimraf" : "^3.0.2",
-    "typescript" : "^4.9.4",
+    "rimraf": "^3.0.2",
+    "typescript": "^4.9.4",
     "standard-version": "^9.5.0"
   },
   "dependencies": {
